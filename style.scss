@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vw;
+    width: 100vw;
+}
+
+.area1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    h1 {
+        font-size: 48px;
+        margin-left: 3vw;
+
+    }
+
+    .icon {
+        display: flex;
+        height: 3.5vw;
+        width: 80vw;
+        position: relative;
+
+        .ii {
+            position: absolute;
+            margin: 1.1% 8%;
+            
+        }
+
+        .sreach {
+            border-radius: 16px;
+            height: 30px;
+            width: 60vw;
+            margin-left: 4vw;
+
+
+        }
+    }
+
+    .maru {
+
+        margin-right: 3vw;
+
+        justify-content: space-between;
+
+        button {
+            margin-left: 2vw;
+            height: 5vw;
+            width: 5vw;
+            border-radius: 50%;
+            background-color: gray;
+
+        }
+
+    }
+
+}
